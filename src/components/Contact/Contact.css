@@ -1,0 +1,270 @@
+/* SECTION BACKGROUND */
+.contact-section {
+  padding: 30px;
+  background: #323335;
+}
+
+/* TITLE */
+.contact-title {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-title span {
+  color: #00aaff;
+}
+
+/* MAIN BOX LEFT + RIGHT */
+.contact-box {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* LEFT SIDE */
+.contact-left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Info Box Layout */
+.info-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 15px;
+  background: #444446;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Icons */
+.icon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-top: 8px;
+}
+
+/* Text Content Container */
+.info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-box label {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.info-box p {
+  color: white;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Location Box */
+.location-box {
+  background: #444446;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+/* Screenshot */
+.location-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Google Maps Button */
+.map-btn {
+  display: inline-block;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  text-align: center;
+  width: 95%;
+}
+
+.map-btn:hover {
+  background: #0056b3;
+}
+
+/* RIGHT SIDE FORM */
+.contact-form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #444446;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* FORM BOXES */
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box label {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-box input {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #323335;
+  color: white;
+  font-size: 15px;
+}
+
+.textarea-box textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #323335;
+  color: white;
+  resize: none;
+  height: 120px;
+  font-size: 15px;
+}
+
+/* Submit button */
+button[type="submit"] {
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+/* Result */
+.result {
+  color: white;
+  margin-top: 10px;
+}/* ---------------------- MEDIA 768px (Tablets) ---------------------- */
+@media (max-width: 768px) {
+
+  /* Title */
+  .contact-title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  /* Make layout vertical */
+  .contact-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  /* Full width left + right */
+  .contact-left,
+  .contact-form {
+    width: 100%;
+  }
+
+  /* Info Box */
+  .info-box {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .icon {
+    width: 26px;
+    height: 26px;
+    margin-top: 5px;
+  }
+
+  /* Location box */
+  .location-box {
+    padding: 20px;
+  }
+
+  /* Form elements */
+  .form-box input,
+  .textarea-box textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  button[type="submit"] {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+/* ---------------------- MEDIA 480px (Mobile) ---------------------- */
+@media (max-width: 480px) {
+
+  .contact-section {
+    padding: 20px;
+  }
+
+  .contact-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .info-box {
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .icon {
+    width: 22px;
+    height: 22px;
+    margin-top: 4px;
+  }
+
+  .info-box label {
+    font-size: 14px;
+  }
+
+  .info-box p {
+    font-size: 12px;
+  }
+
+  .location-box {
+    padding: 15px;
+  }
+
+  .contact-form {
+    padding: 15px;
+  }
+
+  .form-box input,
+  .textarea-box textarea {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  button[type="submit"] {
+    font-size: 14px;
+    padding: 9px;
+  }
+}

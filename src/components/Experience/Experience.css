@@ -1,0 +1,289 @@
+.experience {
+  padding: 40px;
+  background: #2c2d2f;
+  color: #fff;
+}
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.section-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.experience h1 {
+  font-size: 36px;
+  color: #00aaff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.experience h1 span{
+  font-size: 36px;
+  color: white;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.experience-container {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* LEFT COLUMN - EDUCATION */
+.left-column, .right-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+h2 {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 20px;
+}
+.education-item{
+  background: #444446;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.experience-item, .certification-item {
+  background: #444446;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* Row for title + date */
+.degree-row,
+.experience-row,
+.certificate-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+/* Main title in each box */
+.degree,
+.role,
+.course {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+/* Duration right side */
+.duration {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(220, 253, 220); 
+  background-color: rgb(42, 126, 42);  /* Green color */
+  border-radius: 14px;
+  padding: 4px;
+}
+
+/* University/College name */
+.location {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(42, 189, 42);   /* Green color */
+}
+
+
+ .role, .course {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+ .company,.institute {
+  font-size: 14px;
+  color: #dcdcdc;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 14px;
+  color: #ccc;
+}
+.work-duration {
+  color: #f0f2f3; /* Blue */
+  background-color: blue;
+}
+
+.work-company {
+  color: #00aaff; /* Blue */
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.cert-duration {
+  color: #f5ede4; 
+  background-color:#bd6705 ;/* Orange */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cert-institute {
+  color: #ff8800; /* Orange */
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* TABLET / MEDIUM SCREENS */
+@media (max-width: 992px) {
+  .experience-container {
+    flex-direction: column; /* stack columns vertically */
+    gap: 30px;
+  }
+
+  .left-column, .right-column {
+    min-width: 100%;
+  }
+
+  .education-item,
+  .experience-item,
+  .certification-item {
+    padding: 20px; /* reduce padding */
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .degree, .role, .course {
+    font-size: 16px;
+  }
+
+  .duration {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+
+  .location,
+  .company,
+  .institute {
+    font-size: 12px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+} 
+@media (max-width: 768px){
+.experience h1 {
+  font-size: 28px;
+  color: #00aaff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.experience h1 span{
+  font-size: 28px;
+ 
+}}
+/* MOBILE / SMALL SCREENS */
+@media (max-width: 650px) {
+  .experience {
+    padding: 30px 20px;
+  }
+
+  .experience h1 {
+    font-size: 28px;
+  }
+
+  .section-title h2 {
+    font-size: 18px;
+  }
+
+  .education-item,
+  .experience-item,
+  .certification-item {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .degree, .role, .course {
+    font-size: 15px;
+  }
+
+  .duration {
+    font-size: 11px;
+    padding: 2px 5px;
+  }
+
+  .location,
+  .company,
+  .institute {
+    font-size: 11px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  /* adjust icon size in section-title */
+  .section-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* EXTRA SMALL SCREENS <= 400px */
+@media (max-width: 400px) {
+  .experience {
+    padding: 20px 10px;
+  }
+
+  .experience h1 {
+    font-size: 22px;
+  }
+ .experience h1 span{
+    font-size: 22px;
+  }
+  .section-title {
+    gap: 6px;
+  }
+
+  .section-title h2 {
+    font-size: 16px;
+  }
+
+  .section-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .education-item,
+  .experience-item,
+  .certification-item {
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+
+  .degree, .role, .course {
+    font-size: 14px;
+  }
+
+  .duration {
+    font-size: 10px;
+    padding: 2px 4px;
+  }
+
+  .location,
+  .company,
+  .institute {
+    font-size: 10px;
+  }
+
+  .description {
+    font-size: 11px;
+  }
+}
