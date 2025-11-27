@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Projects.css";
 import viewImg from "../../assets/view.png";
 
-
 import doctorcareImg from "../../assets/doctorcare.png";
 import unityImg from "../../assets/unity.png";
 import foodImg from "../../assets/foodrecipe.png";
@@ -14,7 +13,6 @@ import todoImg from "../../assets/todolist.png";
 function Projects() {
   const [showMore, setShowMore] = useState(false);
 
-  // 🔹 MAIN PROJECTS (always show)
   const mainProjects = [
     {
       title: "DoctorCare Website",
@@ -42,7 +40,6 @@ function Projects() {
     },
   ];
 
-  // 🔹 EXTRA PROJECTS (hidden until View All)
   const extraProjects = [
     {
       title: "Quiz App",
@@ -75,7 +72,7 @@ function Projects() {
       <h1>
         My <span>Projects</span>
       </h1>
-      
+
       {/* MAIN PROJECTS */}
       <div className="project-container">
         {mainProjects.map((p, index) => (
@@ -92,17 +89,22 @@ function Projects() {
             </div>
 
             <div className="project-buttons">
-             <a href={p.demo} target="_blank" className="btn-demo">
-  <img src={viewImg} className="demo-icon" alt="view" />
-  Live Demo
-</a>
-
+              {/* ✅ Added rel="noopener noreferrer" */}
+              <a
+                href={p.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-demo"
+              >
+                <img src={viewImg} className="demo-icon" alt="view" />
+                Live Demo
+              </a>
             </div>
           </div>
         ))}
       </div>
 
-      {/* EXTRA PROJECTS (Show only when showMore = true) */}
+      {/* EXTRA PROJECTS */}
       {showMore && (
         <div className="project-container">
           {extraProjects.map((p, index) => (
@@ -119,11 +121,15 @@ function Projects() {
               </div>
 
               <div className="project-buttons">
-                <a href={p.demo} target="_blank" className="btn-demo">
-  <img src={viewImg} className="demo-icon" alt="view" />
-  Live Demo
-</a>
-                
+                <a
+                  href={p.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-demo"
+                >
+                  <img src={viewImg} className="demo-icon" alt="view" />
+                  Live Demo
+                </a>
               </div>
             </div>
           ))}
