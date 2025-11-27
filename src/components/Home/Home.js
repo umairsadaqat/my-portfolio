@@ -2,13 +2,14 @@ import React, { useState, useEffect } from "react";
 import "./Home.css";
 import profileImage from "../../assets/image.jpg";
 
-function Home() {
-  const texts = [
-    "Frontend Developer",
-    "React JS Developer",
-    "Building Real-Time Applications"
-  ];
+// ✅ Moved texts OUTSIDE component (fixes ESLint CI error)
+const texts = [
+  "Frontend Developer",
+  "React JS Developer",
+  "Building Real-Time Applications"
+];
 
+function Home() {
   const [textIndex, setTextIndex] = useState(0);
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -35,7 +36,8 @@ function Home() {
     }
 
     return () => clearTimeout(timeout);
-  }, [displayText, isDeleting, texts, textIndex]);
+  }, [displayText, isDeleting, textIndex]); 
+  // ❌ removed `texts` from dependencies → ESLint safe
 
   return (
     <section id="home" className="home section">
@@ -44,7 +46,10 @@ function Home() {
           Hi, I'm <span className="highlight">Umair</span>
         </h1>
 
-        <h3 className="changing-text">{displayText}<span className="cursor">|</span></h3>
+        <h3 className="changing-text">
+          {displayText}
+          <span className="cursor">|</span>
+        </h3>
 
         <p className="description">
           I build exceptional digital experiences for the modern web.
