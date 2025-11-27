@@ -170,7 +170,7 @@ button[type="submit"]:hover {
 
   /* Title */
   .contact-title {
-    font-size: 28px;
+    font-size: 35px;
     margin-bottom: 25px;
   }
 
@@ -225,7 +225,7 @@ button[type="submit"]:hover {
   }
 
   .contact-title {
-    font-size: 22px;
+    font-size: 35px;
     margin-bottom: 20px;
   }
 
@@ -242,11 +242,11 @@ button[type="submit"]:hover {
   }
 
   .info-box label {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .info-box p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .location-box {

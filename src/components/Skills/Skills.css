@@ -123,14 +123,14 @@
 @media (max-width: 600px) {
   .skills {
     padding: 50px 15px;
-    font-size: 28px;
+    font-size: 35px;
   } .skills h1 {
    
-    font-size: 28px;
+    font-size: 35px;
   }
   .skills h1 span{
     
-    font-size: 28px;
+    font-size: 35px;
   }
   
   .skills-grid {

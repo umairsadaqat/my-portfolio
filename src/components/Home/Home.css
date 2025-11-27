@@ -18,7 +18,7 @@
 
 /* TEXT STYLES */
 .name-line {
-  font-size: 48px;
+  font-size: 50px;
   font-weight: bold;
   margin: 0;
 }
@@ -28,7 +28,7 @@
 }
 
 .changing-text {
-  font-size: 26px;
+  font-size: 35px;
   font-weight: 600;
   color: #00aaff;
   margin: 10px 0;
@@ -49,7 +49,7 @@
 }
 
 .description {
-  font-size: 18px;
+  font-size: 30px;
   color: #ddd;
   margin-top: 10px;
   max-width: 450px;
@@ -234,7 +234,7 @@
     text-align: left;          /* left align text inside container */
   }
 .name-line{
-  font-size: 35px;
+  font-size: 40px;
 }
   .name-line,
   .changing-text,
@@ -244,12 +244,13 @@
   }
   .changing-text
    {
-    font-size: 20px;            /* remove extra spacing */
+    font-size: 30px;            /* remove extra spacing */
   }
 
   .description {
     text-align: left;
-    font-size: 15px;          /* left-align description */
+    font-size: 100px;
+              /* left-align description */
   }
 
   /* Buttons stacked vertically under text */

@@ -156,7 +156,7 @@ h2 {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .degree, .role, .course {
@@ -200,7 +200,7 @@ h2 {
   }
 
   .section-title h2 {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .education-item,
@@ -211,7 +211,7 @@ h2 {
   }
 
   .degree, .role, .course {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .duration {
