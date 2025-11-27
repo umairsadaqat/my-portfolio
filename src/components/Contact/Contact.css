@@ -1,6 +1,6 @@
 /* SECTION BACKGROUND */
 .contact-section {
-  padding: 30px;
+  padding: 50px 30px;
   background: #323335;
 }
 
@@ -221,7 +221,7 @@ button[type="submit"]:hover {
 @media (max-width: 480px) {
 
   .contact-section {
-    padding: 20px;
+    padding:  50px 20px;
   }
 
   .contact-title {
@@ -254,13 +254,13 @@ button[type="submit"]:hover {
   }
 
   .contact-form {
-    padding: 15px;
+    padding: 8px;
   }
 
   .form-box input,
   .textarea-box textarea {
     font-size: 13px;
-    padding: 8px;
+    padding: 8px 2px;
   }
 
   button[type="submit"] {

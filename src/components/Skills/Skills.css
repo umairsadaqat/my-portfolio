@@ -158,7 +158,8 @@
 /* Extra Small / Very Small Screens (≤400px): 2 per row */
 @media (max-width: 400px) {
   .skills {
-    padding: 40px 10px;
+    padding: 50px 10px;
+    padding-bottom: 70px;
   }
   .skills-grid {
     grid-template-columns: repeat(2, 1fr); /* keep 2 per row */

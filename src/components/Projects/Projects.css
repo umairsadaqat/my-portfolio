@@ -135,7 +135,7 @@
 /* Tablet / Medium Screens <= 992px */
 @media (max-width: 992px) {
   .projects {
-    padding: 30px 40px;
+    padding: 50px 40px;
   }
 
   .projects h1 {
@@ -173,7 +173,7 @@
 /* Mobile Screens <= 768px */
 @media (max-width: 768px) {
   .projects {
-    padding: 20px 20px;
+    padding: 50px 20px;
   }
 
   .projects h1 {
@@ -225,7 +225,7 @@
 /* Extra Small Screens <= 400px */
 @media (max-width: 400px) {
   .projects {
-    padding: 15px 10px;
+    padding: 50px 10px;
   }
 
   .projects h1 {
