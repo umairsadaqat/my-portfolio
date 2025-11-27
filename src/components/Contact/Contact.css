@@ -1,7 +1,7 @@
 /* SECTION BACKGROUND */
 .contact-section {
   padding: 50px 30px;
-  background: #323335;
+  background: #141c29;
 }
 
 /* TITLE */
@@ -38,7 +38,7 @@
   align-items: flex-start;
   flex-direction: row;
   gap: 15px;
-  background: #444446;
+  background-color: #27313d !important;
   padding: 15px;
   border-radius: 8px;
 }
@@ -73,7 +73,7 @@
 
 /* Location Box */
 .location-box {
-  background: #444446;
+  background: #27313d;
   padding: 30px;
   border-radius: 8px;
   margin-bottom: 30px;
@@ -109,7 +109,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  background: #444446;
+  background: #27313d;
   padding: 20px;
   border-radius: 10px;
 }
@@ -130,7 +130,7 @@
   padding: 10px;
   border: none;
   border-radius: 6px;
-  background: #323335;
+   background: #141c29;
   color: white;
   font-size: 15px;
 }
@@ -139,7 +139,7 @@
   padding: 10px;
   border: none;
   border-radius: 6px;
-  background: #323335;
+  background: #141c29;
   color: white;
   resize: none;
   height: 120px;

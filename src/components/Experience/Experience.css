@@ -1,6 +1,7 @@
 .experience {
   padding: 50px 40px;
-  background: #2c2d2f;
+  background: #1f2731;
+;
   color: #fff;
 }
 .section-title {
@@ -46,14 +47,15 @@ h2 {
   margin-bottom: 20px;
 }
 .education-item{
-  background: #444446;
+  background-color: #2e363f;
+ 
   padding: 30px;
   border-radius: 12px;
   margin-bottom: 32px;
 }
 
 .experience-item, .certification-item {
-  background: #444446;
+   background-color: #2e363f;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 20px;

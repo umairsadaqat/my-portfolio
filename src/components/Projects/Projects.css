@@ -1,7 +1,7 @@
 /* MAIN SECTION */
 .projects {
   padding: 60px 80px;
-  background: #1e1f21;
+  background: #0a1422;
   color: #fff;
   text-align: center;
 }
@@ -33,7 +33,7 @@
 
 /* PROJECT CARD */
 .project-card {
-  background: #2c2d2f;
+  background:#1f2731;
   padding: 2px;
   border-radius: 12px;
   transition: 0.3s;
